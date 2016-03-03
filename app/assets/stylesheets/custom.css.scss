@@ -1,17 +1,19 @@
+$navbar-default-bg: silver;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
 #logo {
   float: left;
   font-size: 1.7em;
-  color: orange;
+  color: #090909;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color: blue;
+  color: orange;
   text-decoration: none;
 }
 
@@ -22,12 +24,12 @@
 .jumbotron {
   background-image: asset-url('new_cover_page.png');
   background-size: cover;
-  height: 500px;
+  height: 550px;
   margin-top: 20px;
 }
 
 .jumbotron h1 {
-  color: orange;
+  color: #DDD;
   text-align: center;
   margin-bottom: 30px;
   letter-spacing: -1px;
@@ -35,6 +37,7 @@
 }
 
 .btn-xlarge {
+  margin-top: 35px;
   font-size: 1.7em;
 }
 
